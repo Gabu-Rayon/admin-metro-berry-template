@@ -1,0 +1,69 @@
+.ctx_doughnut_details li span {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.new_pie_chart_container {
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.new_pie_chart_container .chart_container {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.new_pie_chart_container .large_circle {
+  position: inherit;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #17c653;
+  left: 4%;
+  top: 15%;
+}
+.new_pie_chart_container .md_circle {
+  position: inherit;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #219653;
+  top: 15%;
+  left: 50%;
+}
+.new_pie_chart_container .sm_circle {
+  position: inherit;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #6b7678;
+  top: 55%;
+  left: 50%;
+}
+button:focus {
+  outline: 0;
+}
+.new_pie_chart_container .large_circle span,
+.new_pie_chart_container .md_circle span,
+.new_pie_chart_container .sm_circle span {
+  position: inherit;
+}
+.new_pie_chart_container .large_circle span,
+.new_pie_chart_container .md_circle span,
+.new_pie_chart_container .sm_circle span {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.card_header {
+  min-height: 80px;
+}
